@@ -5,7 +5,7 @@ import FloatingWhatsApp from '../ui/FloatingWhatsApp';
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-mme-deepBlack text-mme-white">
+    <div className="flex flex-col min-h-screen bg-mme-deepBlack text-mme-white overflow-x-hidden">
       <Navbar />
       <main className="flex-grow">
         {children}
