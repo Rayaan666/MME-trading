@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-mme-deepBlack text-mme-white font-sans antialiased overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading uppercase tracking-wide;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-mme-deepBlack;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-mme-softBlack rounded-full;
+  border: 1px solid #111111;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-mme-gold;
+}
+
+/* Utilities for text rendering */
+.text-balance {
+  text-wrap: balance;
+}
