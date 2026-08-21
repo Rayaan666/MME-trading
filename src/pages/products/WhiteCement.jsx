@@ -8,7 +8,7 @@ import Breadcrumbs from '../../components/common/Breadcrumbs';
 const WhiteCement = () => {
   const breadcrumbItems = [
     { name: 'Home', path: '/' },
-    { name: 'Products & Services', path: '/products-services' },
+    { name: 'Building Materials', path: '/products-services' },
     { name: 'White Cement', path: '' }
   ];
 

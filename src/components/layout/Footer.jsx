@@ -29,7 +29,7 @@ const Footer = () => {
               <img src="https://res.cloudinary.com/uw8ii9wg/image/upload/logo_8.png" alt="MME Trading Logo" className="h-20 md:h-24 w-auto object-contain" />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-sm font-light">
-              Wood, plywood, MDF and timber supplier serving projects across Dubai and the UAE.
+              Building and construction materials trading, supplying steel, cement, wire mesh, plywood, MDF and timber serving projects across Dubai and the UAE.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/products-services" className="text-white/60 hover:text-mme-gold text-sm transition-colors font-light">
-                  Products & Services
+                  Building Materials
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ const Footer = () => {
 
           {/* Products */}
           <div>
-            <h4 className="font-heading text-lg mb-6 tracking-wide text-white">PRODUCTS</h4>
+            <h4 className="font-heading text-lg mb-6 tracking-wide text-white">BUILDING MATERIALS</h4>
             <ul className="space-y-3">
               {productLinks.map((item) => (
                 <li key={item.title}>
@@ -87,9 +87,14 @@ const Footer = () => {
               </li>
               <li>
                 <span className="text-white/40 text-xs block font-mono">PHONE</span>
-                <a href="tel:0557354031" className="hover:text-mme-gold transition-colors">
-                  055 735 4031
-                </a>
+                <div className="flex flex-col space-y-1">
+                  <a href="tel:0557354031" className="hover:text-mme-gold transition-colors">
+                    055 735 4031
+                  </a>
+                  <a href="tel:0503478428" className="hover:text-mme-gold transition-colors">
+                    050 347 8428
+                  </a>
+                </div>
               </li>
               <li>
                 <span className="text-white/40 text-xs block font-mono">EMAIL</span>

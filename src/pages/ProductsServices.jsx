@@ -8,7 +8,7 @@ import Breadcrumbs from '../components/common/Breadcrumbs';
 const ProductsServices = () => {
   const breadcrumbItems = [
     { name: 'Home', path: '/' },
-    { name: 'Products & Services', path: '' }
+    { name: 'Building Materials', path: '' }
   ];
 
   const productsList = [
@@ -113,8 +113,8 @@ const ProductsServices = () => {
   return (
     <>
       <SEO 
-        title="Wood, Plywood & Timber Supply Services UAE | MME Trading"
-        description="MME Trading supplies plywood, MDF boards and timber for construction, interiors, joinery and commercial projects across Dubai and the UAE."
+        title="Building Materials & Wood Supply Services UAE | MME Trading"
+        description="MME Trading specializes in building and construction materials trading, supplying cement, steel, plywood, MDF boards, and timber across Dubai and the UAE."
         canonical="/products-services"
       />
 
@@ -132,11 +132,11 @@ const ProductsServices = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <span className="text-mme-gold text-xs font-bold tracking-[0.2em] uppercase mb-4 block">MME TRADING MATERIAL CAPABILITIES</span>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase leading-[1.1] mb-6">
-              WOOD & TIMBER SUPPLY SERVICES<br/>
-              <span className="text-mme-gold">ACROSS THE UAE</span>
+              BUILDING & CONSTRUCTION<br/>
+              <span className="text-mme-gold">MATERIALS TRADING UAE</span>
             </h1>
             <p className="text-lg md:text-xl text-white/75 font-light max-w-3xl leading-relaxed">
-              MME Trading is a dependable trading partner based in Ajman, delivering marine plywood, commercial plywood, MDF boards, and quality timber to contractors and developers serving Dubai and across the United Arab Emirates.
+              MME Trading is a dependable trading partner based in Ajman, specializing in building and construction materials trading. We deliver high-quality steel rebar, cement, wire mesh, marine plywood, commercial plywood, MDF boards, and quality timber to contractors and developers serving Dubai and across the United Arab Emirates.
             </p>
           </motion.div>
         </div>
@@ -146,7 +146,7 @@ const ProductsServices = () => {
       <section className="pt-8 pb-8 md:pt-10 md:pb-10 bg-mme-deepBlack">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-8 md:mb-10">
-            <span className="text-mme-gold text-xs font-bold tracking-[0.2em] uppercase mb-2 block">OUR PRODUCTS</span>
+            <span className="text-mme-gold text-xs font-bold tracking-[0.2em] uppercase mb-2 block">OUR BUILDING MATERIALS</span>
             <h2 className="font-heading text-3xl md:text-5xl uppercase text-white">SELECT A MATERIAL SPECIFICATION</h2>
           </div>
 

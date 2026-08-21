@@ -110,8 +110,8 @@ const Home = () => {
   return (
     <>
       <SEO 
-        title="Wood & Plywood Supplier in Dubai & UAE | MME Trading"
-        description="MME Trading supplies marine plywood, commercial plywood, MDF boards and timber for construction, interiors and commercial projects across Dubai and the UAE."
+        title="Building Materials, Wood & Plywood Supplier in Dubai & UAE | MME Trading"
+        description="MME Trading is a leading building and construction materials trading company, supplying marine plywood, commercial plywood, MDF boards, timber, steel, and cement across Dubai and the UAE."
         canonical="/"
       />
 
@@ -138,18 +138,18 @@ const Home = () => {
 
             {/* H1 - Exact match with SEO Strategy */}
             <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.4 }} className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] leading-[1.05] mb-6 text-mme-white uppercase">
-              WOOD & PLYWOOD SUPPLIER<br />
-              <span className="text-white/80">IN DUBAI & UAE.</span><br />
+              BUILDING & CONSTRUCTION<br />
+              <span className="text-white/80">MATERIALS TRADING.</span><br />
               <span className="text-mme-gold">BUILT FOR EVERY PROJECT.</span>
             </motion.h1>
 
             <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }} className="text-lg md:text-xl text-white/70 max-w-3xl mb-8 leading-relaxed font-light">
-              MME Trading is a trusted wood, plywood, MDF and timber supplier serving Dubai and across the UAE, providing marine plywood, commercial plywood and quality timber for construction, interiors, joinery, furniture and commercial projects.
+              MME Trading is a trusted partner for building and construction materials trading, serving Dubai and across the UAE. We provide steel, cement, wire mesh, marine plywood, commercial plywood, MDF, and quality timber for all construction, interior, and commercial projects.
             </motion.p>
 
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.8 }} className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Link to="/products-services" className="group flex items-center space-x-3 bg-mme-gold text-mme-deepBlack px-8 py-4 font-semibold tracking-wider text-sm transition-all duration-300 hover:bg-mme-deepGold">
-                <span>EXPLORE PRODUCTS</span>
+                <span>EXPLORE BUILDING MATERIALS</span>
                 <ArrowRight size={18} className="transform group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
               <Link to="/contact" className="group flex items-center space-x-3 text-mme-white hover:text-mme-gold px-8 py-4 font-semibold tracking-wider text-sm border border-white/20 hover:border-mme-gold transition-all duration-300">
@@ -158,7 +158,7 @@ const Home = () => {
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.0 }} className="mt-8 text-xs font-mono text-white/40 tracking-wider">
-              Marine Plywood • Commercial Plywood • MDF Boards • Timber & Wood • Bulk Supply • UAE Delivery
+              Building Materials • Deformed Steel • Cement • BRC Wire Mesh • Plywood & MDF • Timber & Wood • UAE Delivery
             </motion.div>
           </div>
         </div>
@@ -175,11 +175,11 @@ const Home = () => {
                 
                 {/* H2 - Structured for Local SEO */}
                 <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl leading-[1.1] mb-4">
-                  QUALITY WOOD & TIMBER PRODUCTS<br/>ACROSS THE UAE.
+                  BUILDING, CONSTRUCTION &<br/>WOOD PRODUCTS IN THE UAE.
                 </h2>
                 
                 <p className="text-base md:text-lg text-mme-charcoal/80 leading-relaxed font-light mb-4">
-                  MME Trading FZE LLC is based in Ajman and supplies dependable wood and timber products for commercial, residential, and marine projects across Dubai, Sharjah, Abu Dhabi, and the wider UAE. From marine-grade plywood and commercial plywood to MDF boards and natural timber, we focus on consistent quality, dependable service and efficient delivery.
+                  MME Trading FZE LLC is based in Ajman and offers comprehensive building and construction materials trading, supplying dependable construction, wood, and timber products for commercial, residential, and marine projects across Dubai, Sharjah, Abu Dhabi, and the wider UAE. From steel rebar, wire mesh, and cement to marine-grade plywood, commercial plywood, MDF boards, and natural timber, we focus on consistent quality, dependable service and efficient delivery.
                 </p>
               </motion.div>
             </div>
@@ -233,7 +233,7 @@ const Home = () => {
           <div className="text-mme-gold text-xs font-bold tracking-[0.2em] mb-2 uppercase">OUR MATERIALS</div>
           {/* H2 - Structured Hierarchy */}
           <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl uppercase leading-[1.1]">
-            OUR WOOD & PLYWOOD<br/><span className="text-white/60">PRODUCTS</span>
+            OUR PREMIUM<br/><span className="text-white/60">BUILDING MATERIALS</span>
           </h2>
         </div>
 

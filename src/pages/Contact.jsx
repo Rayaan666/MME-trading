@@ -54,8 +54,8 @@ const Contact = () => {
   return (
     <>
       <SEO 
-        title="Contact MME Trading | Wood Supplier in UAE"
-        description="Contact MME Trading for wood, marine plywood, commercial plywood, MDF, and timber solutions in Dubai, Ajman, and across the UAE. Request a quote today."
+        title="Contact MME Trading | Building Materials & Wood Supplier UAE"
+        description="Contact MME Trading for building and construction materials trading, steel, cement, marine plywood, commercial plywood, MDF, and timber solutions in Dubai, Ajman, and across the UAE. Request a quote today."
         canonical="/contact"
         schema={contactSchema}
       />
@@ -74,11 +74,11 @@ const Contact = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <span className="text-mme-gold text-xs font-bold tracking-[0.2em] uppercase mb-4 block">GET IN TOUCH</span>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase leading-[1.1] mb-6 text-white">
-              CONTACT YOUR WOOD & PLYWOOD<br/>
+              CONTACT YOUR BUILDING MATERIALS & WOOD<br/>
               <span className="text-mme-gold">SUPPLIER IN UAE</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 font-light max-w-2xl">
-              Tell us what wood materials your project requires and our team will provide expert advice and a fast, competitive quotation.
+              Tell us what building materials or wood products your project requires and our team will provide expert advice and a fast, competitive quotation.
             </p>
           </motion.div>
         </div>
@@ -102,7 +102,10 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="text-[11px] font-mono tracking-widest text-white/40 mb-0.5 uppercase">Phone</div>
-                      <a href="tel:0557354031" className="text-base font-light text-white hover:text-mme-gold transition-colors">055 735 4031</a>
+                      <div className="flex flex-col space-y-1">
+                        <a href="tel:0557354031" className="text-base font-light text-white hover:text-mme-gold transition-colors">055 735 4031</a>
+                        <a href="tel:0503478428" className="text-base font-light text-white hover:text-mme-gold transition-colors">050 347 8428</a>
+                      </div>
                     </div>
                   </li>
 
