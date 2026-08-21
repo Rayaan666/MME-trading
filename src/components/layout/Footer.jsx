@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Brand & Tagline */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link to="/" className="flex items-center mb-6">
-              <img src="/logo.png" alt="MME Trading Logo" className="h-12 w-auto object-contain" />
+              <img src="https://res.cloudinary.com/uw8ii9wg/image/upload/logo_8.png" alt="MME Trading Logo" className="h-20 md:h-24 w-auto object-contain" />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-sm font-light">
               Wood, plywood, MDF and timber supplier serving projects across Dubai and the UAE.

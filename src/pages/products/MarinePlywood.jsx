@@ -41,7 +41,7 @@ const MarinePlywood = () => {
     <>
       <SEO 
         title="Marine Plywood Supplier in Dubai & UAE | MME Trading"
-        description="MME Trading is a leading marine plywood supplier in Dubai, Ajman, and across the UAE. Premium BWP moisture-resistant plywood for marine, exterior, and heavy construction projects."
+        description="MME Trading is a leading marine plywood supplier in Dubai, Ajman, and across the UAE. BWP moisture-resistant plywood for marine, exterior, and heavy construction projects."
         canonical="/products/marine-plywood"
         ogImage="https://res.cloudinary.com/uw8ii9wg/image/upload/ChatGPT_Image_Aug_20_2026_09_51_51_AM"
         schema={productSchema}
@@ -59,7 +59,7 @@ const MarinePlywood = () => {
           <Breadcrumbs items={breadcrumbItems} />
           
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <span className="text-mme-gold text-xs font-bold tracking-[0.2em] uppercase mb-4 block">PREMIUM GRADE BWP PLYWOOD</span>
+            <span className="text-mme-gold text-xs font-bold tracking-[0.2em] uppercase mb-4 block">HIGH GRADE BWP PLYWOOD</span>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase leading-[1.1] mb-6 text-white">
               MARINE PLYWOOD SUPPLIER<br/>
               <span className="text-mme-gold">IN DUBAI & UAE</span>

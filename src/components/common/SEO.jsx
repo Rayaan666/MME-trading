@@ -20,7 +20,7 @@ const SEO = ({
     "name": "MME Trading FZE LLC",
     "url": siteUrl,
     "logo": `${siteUrl}/assets/logo.png`,
-    "description": "Supplier of premium wood, plywood, MDF boards and timber products in the UAE.",
+    "description": "Supplier of wood, plywood, MDF boards and timber products in the UAE.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Ajman",

@@ -6,7 +6,7 @@ import SEO from '../components/common/SEO';
 
 const Home = () => {
   const whyReasons = [
-    { num: '01', title: 'PREMIUM QUALITY', desc: 'Carefully selected materials suitable for demanding project requirements.' },
+    { num: '01', title: 'HIGH QUALITY', desc: 'Carefully selected materials suitable for demanding project requirements.' },
     { num: '02', title: 'WIDE RANGE', desc: 'Multiple timber and engineered wood solutions for different applications.' },
     { num: '03', title: 'RELIABLE SERVICE', desc: 'Professional support from initial enquiry through order fulfilment.' },
     { num: '04', title: 'TIMELY DELIVERY', desc: 'Efficient logistics designed to keep projects moving across Dubai and the UAE.' }
@@ -48,6 +48,51 @@ const Home = () => {
       desc: 'Quality natural sawn lumber, hardwood, and softwood supplied for civil construction, carpentry, and architectural woodwork.', 
       img: 'https://res.cloudinary.com/uw8ii9wg/image/upload/ChatGPT_Image_Aug_20_2026_12_05_23_AM',
       alt: 'Timber wood supplier Dubai UAE MME Trading'
+    },
+    { 
+      num: '05', 
+      title: 'Deformed Steel Supplier in UAE', 
+      name: 'Deformed Steel',
+      path: '/products/deformed-steel',
+      desc: 'High-strength deformed steel rebar for concrete reinforcement and structural stability in construction projects.', 
+      img: '/images/deformed_steel.jpg',
+      alt: 'Deformed steel supplier Dubai UAE MME Trading'
+    },
+    { 
+      num: '06', 
+      title: 'BRC Wire Mesh Supplier in UAE', 
+      name: 'BRC Wire Mesh',
+      path: '/products/brc-wire-mesh',
+      desc: 'BRC wire mesh for reliable concrete reinforcement in foundations, slabs, and structural applications.', 
+      img: '/images/brc_wire_mesh.jpg',
+      alt: 'BRC Wire Mesh supplier Dubai UAE MME Trading'
+    },
+    { 
+      num: '07', 
+      title: 'OPC Cement Supplier in UAE', 
+      name: 'OPC Cement',
+      path: '/products/opc-cement',
+      desc: 'Ordinary Portland Cement (OPC) for general construction, masonry, and high-strength structural concrete works.', 
+      img: '/images/opc_cement.jpg',
+      alt: 'OPC Cement supplier Dubai UAE MME Trading'
+    },
+    { 
+      num: '08', 
+      title: 'PLC Cement Supplier in UAE', 
+      name: 'PLC Cement',
+      path: '/products/plc-cement',
+      desc: 'Portland Limestone Cement (PLC) offering sustainable, high-performance binding for various construction needs.', 
+      img: '/images/plc_cement.jpg',
+      alt: 'PLC Cement supplier Dubai UAE MME Trading'
+    },
+    { 
+      num: '09', 
+      title: 'White Cement Supplier in UAE', 
+      name: 'White Cement',
+      path: '/products/white-cement',
+      desc: 'High-quality white cement perfect for architectural finishes, decorative concrete, and tile grouting.', 
+      img: '/images/white_cement.jpg',
+      alt: 'White Cement supplier Dubai UAE MME Trading'
     }
   ];
 
@@ -75,7 +120,7 @@ const Home = () => {
         {/* Background Image Container */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/70 z-10"></div>
-          <img src="https://res.cloudinary.com/uw8ii9wg/image/upload/ChatGPT_Image_Aug_19_2026_11_49_03_PM" alt="MME Trading Premium Wood Supplier" className="w-full h-full object-cover object-center" />
+          <img src="https://res.cloudinary.com/uw8ii9wg/image/upload/ChatGPT_Image_Aug_19_2026_11_49_03_PM" alt="MME Trading Wood Supplier" className="w-full h-full object-cover object-center" />
         </div>
 
         <div className="absolute inset-0 z-10 pointer-events-none opacity-20">
@@ -93,7 +138,7 @@ const Home = () => {
 
             {/* H1 - Exact match with SEO Strategy */}
             <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.4 }} className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] leading-[1.05] mb-6 text-mme-white uppercase">
-              PREMIUM WOOD & PLYWOOD SUPPLIER<br />
+              WOOD & PLYWOOD SUPPLIER<br />
               <span className="text-white/80">IN DUBAI & UAE.</span><br />
               <span className="text-mme-gold">BUILT FOR EVERY PROJECT.</span>
             </motion.h1>
@@ -308,7 +353,7 @@ const Home = () => {
       {/* 7. PROJECT VISUAL */}
       <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
         <div className="absolute inset-0 bg-mme-deepBlack z-0">
-          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80" alt="Premium interior architecture and wood fit out in UAE" className="w-full h-full object-cover opacity-60" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80" alt="Interior architecture and wood fit out in UAE" className="w-full h-full object-cover opacity-60" loading="lazy" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-mme-deepBlack via-transparent to-transparent z-10"></div>
         <div className="relative z-20 h-full max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-center text-center">

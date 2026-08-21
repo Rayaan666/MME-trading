@@ -39,6 +39,41 @@ const ProductsServices = () => {
       desc: 'High-grade natural sawn timber, hardwoods, and softwoods supplied for civil construction, carpentry, and architectural woodwork.',
       img: 'https://res.cloudinary.com/uw8ii9wg/image/upload/ChatGPT_Image_Aug_20_2026_12_44_45_AM',
       specs: ['Kiln-Dried Seasoning', 'Structural & Joinery Grades', 'Custom Dimensions']
+    },
+    {
+      title: 'Deformed Steel',
+      path: '/products/deformed-steel',
+      desc: 'High-strength deformed steel rebar for concrete reinforcement and structural stability in construction projects.',
+      img: '/images/deformed_steel.jpg',
+      specs: ['High Tensile Strength', 'Various Diameters', 'Standard Grade']
+    },
+    {
+      title: 'BRC Wire Mesh',
+      path: '/products/brc-wire-mesh',
+      desc: 'BRC wire mesh for reliable concrete reinforcement in foundations, slabs, and structural applications.',
+      img: '/images/brc_wire_mesh.jpg',
+      specs: ['Welded Steel Fabric', 'Standard Sheet Sizes', 'Uniform Spacing']
+    },
+    {
+      title: 'OPC Cement',
+      path: '/products/opc-cement',
+      desc: 'Ordinary Portland Cement (OPC) for general construction, masonry, and high-strength structural concrete works.',
+      img: '/images/opc_cement.jpg',
+      specs: ['High Compressive Strength', 'General Purpose', 'Fast Setting']
+    },
+    {
+      title: 'PLC Cement',
+      path: '/products/plc-cement',
+      desc: 'Portland Limestone Cement (PLC) offering sustainable, high-performance binding for various construction needs.',
+      img: '/images/plc_cement.jpg',
+      specs: ['Eco-Friendly', 'Enhanced Workability', 'Consistent Quality']
+    },
+    {
+      title: 'White Cement',
+      path: '/products/white-cement',
+      desc: 'High-quality white cement perfect for architectural finishes, decorative concrete, and tile grouting.',
+      img: '/images/white_cement.jpg',
+      specs: ['Bright White Finish', 'High Fineness', 'Superior Bonding']
     }
   ];
 

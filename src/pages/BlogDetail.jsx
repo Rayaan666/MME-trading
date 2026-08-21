@@ -28,7 +28,7 @@ const BlogDetail = () => {
         </blockquote>
 
         <h2>What Is Marine Plywood?</h2>
-        <p>Marine Plywood (BWP - Boiling Water Proof grade) is a specialized structural panel engineered for high-moisture environments, marine vessel fit-outs, and exterior applications. It is manufactured using 100% Phenol Formaldehyde resin and premium hardwood veneers with zero internal core gaps.</p>
+        <p>Marine Plywood (BWP - Boiling Water Proof grade) is a specialized structural panel engineered for high-moisture environments, marine vessel fit-outs, and exterior applications. It is manufactured using 100% Phenol Formaldehyde resin and hardwood veneers with zero internal core gaps.</p>
         <p>To view load ratings and available sheet sizes, see our <a href="/products/marine-plywood">Marine Plywood product range</a>.</p>
 
         <h2>Key Differences Comparison</h2>
@@ -36,7 +36,7 @@ const BlogDetail = () => {
           <li><strong>Adhesive Resin:</strong> Commercial plywood utilizes MR urea resin, whereas Marine plywood employs 100% BWP phenolic resin.</li>
           <li><strong>Core Gap Integrity:</strong> Marine plywood features zero core voids to eliminate moisture pockets.</li>
           <li><strong>Water Exposure:</strong> Marine plywood can withstand boiling water tests for up to 72 hours without glue line failure.</li>
-          <li><strong>Insect Protection:</strong> Premium marine panels receive specialized anti-borer and anti-termite chemical treatments suitable for tropical climates.</li>
+          <li><strong>Insect Protection:</strong> Marine panels receive specialized anti-borer and anti-termite chemical treatments suitable for tropical climates.</li>
         </ul>
 
         <h2>Which Plywood Specification Fits Your UAE Project?</h2>

@@ -55,7 +55,7 @@ const Contact = () => {
     <>
       <SEO 
         title="Contact MME Trading | Wood Supplier in UAE"
-        description="Contact MME Trading for premium wood, marine plywood, commercial plywood, MDF, and timber solutions in Dubai, Ajman, and across the UAE. Request a quote today."
+        description="Contact MME Trading for wood, marine plywood, commercial plywood, MDF, and timber solutions in Dubai, Ajman, and across the UAE. Request a quote today."
         canonical="/contact"
         schema={contactSchema}
       />

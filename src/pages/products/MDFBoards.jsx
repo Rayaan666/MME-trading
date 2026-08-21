@@ -65,7 +65,7 @@ const MDFBoards = () => {
               <span className="text-mme-gold">IN DUBAI & UAE</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 font-light max-w-3xl mb-8 leading-relaxed">
-              MME Trading supplies premium Medium Density Fiberboard (MDF) panels engineered for interior decoration, custom cabinetry, CNC routing, wall paneling, and furniture manufacturing across Dubai, Ajman, and the UAE.
+              MME Trading supplies Medium Density Fiberboard (MDF) panels engineered for interior decoration, custom cabinetry, CNC routing, wall paneling, and furniture manufacturing across Dubai, Ajman, and the UAE.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Link to="/contact?product=MDF%20Boards" className="group flex items-center space-x-3 bg-mme-gold text-mme-deepBlack px-8 py-4 font-semibold tracking-wider text-sm transition-all duration-300 hover:bg-mme-deepGold">
