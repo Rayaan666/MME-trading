@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="relative z-50 group flex items-center">
-            <img src="https://res.cloudinary.com/uw8ii9wg/image/upload/logo_8.png" alt="MME Trading Logo" className="h-16 md:h-20 w-auto object-contain" />
+            <img src="https://res.cloudinary.com/tejjggbw/image/upload/Untitled_design_-_2026-08-21T182953.259" alt="MME Trading Logo" className="h-16 md:h-20 w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
