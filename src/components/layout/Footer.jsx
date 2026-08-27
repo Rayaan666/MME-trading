@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Brand & Tagline */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link to="/" className="flex items-center mb-6">
-              <img src="https://res.cloudinary.com/tejjggbw/image/upload/Untitled_design_-_2026-08-21T182953.259" alt="MME Trading Logo" className="h-20 md:h-24 w-auto object-contain" />
+              <img src="/logo.png" alt="MME Trading Logo" className="h-14 md:h-16 w-auto object-contain" />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-sm font-light">
               Building and construction materials trading, supplying steel, cement, wire mesh, plywood, MDF and timber serving projects across Dubai and the UAE.
