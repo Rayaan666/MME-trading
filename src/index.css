@@ -41,3 +41,12 @@
 .text-balance {
   text-wrap: balance;
 }
+
+/* Position AI Chatbot (Chatbase) above WhatsApp floating icon */
+#chatbase-bubble-button,
+#chatbase-bubble-window,
+#chatbase-message-bubbles,
+[id^="chatbase-"] {
+  bottom: 96px !important;
+}
+
